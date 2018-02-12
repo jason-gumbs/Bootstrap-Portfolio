@@ -3,7 +3,8 @@ body {
     background-image: url("../images/circles-light.png");
     margin:0; /*gets rid of white space around body*/
   margin-top:16px;
-  position:relative; 
+  font-family: 'Questrial', sans-serif;
+ 
 }
 .bg{
 background: white;
@@ -34,11 +35,14 @@ h1{
    
   }
   .footer{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Questrial', sans-serif;
+    position: absolute;
+   
+  
  
-  padding: 30px;
+  padding: 10px;
   font-weight: bold;
-    left: 0;
+    
     bottom: 0;
     width: 100%;
     background-color: #666666;
@@ -49,6 +53,7 @@ h1{
 .nav-link{
   color: lightgrey;
 }
-.navbar{
+img{height: 100px;
+  width: 100px;
  
 }
